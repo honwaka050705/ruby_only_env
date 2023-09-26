@@ -1,8 +1,8 @@
-require './create_bingo_card/title'
+require './create_bingo_card/title_module'
 require './create_bingo_card/bingo_line'
 
 class BingoCard
-  include Title
+  include TitleModule
 
   HEAD_TITLE = 'BINGO'
 

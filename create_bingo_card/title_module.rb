@@ -1,7 +1,7 @@
-require './create_bingo_card/bingo_decoration'
+require './create_bingo_card/bingo_decoration_module'
 
-module Title
-  include BingoDecoration
+module TitleModule
+  include BingoDecorationModule
 
   def title_output(title)
     print '|'

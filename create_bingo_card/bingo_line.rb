@@ -1,7 +1,7 @@
 require './create_bingo_card/bingo_column'
 
 class BingoLine
-  include BingoDecoration
+  include BingoDecorationModule
 
   FREE_SPACE = {N: 2}
 
@@ -25,7 +25,8 @@ class BingoLine
     
     @title.each_char do |c|
       val = (c == 'N' && line_num == 2) ? '' : @col.cols[c.to_sym][line_num].to_s 
-      line << " #{val.rjust(2, ' ')} |"
+      line << add_pipe_at_end(val)
+      # line << " #{val.rjust(2, ' ')} |"
     end
     line << "\n"
 

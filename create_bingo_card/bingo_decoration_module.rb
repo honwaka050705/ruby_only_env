@@ -1,4 +1,4 @@
-module BingoDecoration
+module BingoDecorationModule
   def decorate_line()
     "| #{}"
   end
