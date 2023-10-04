@@ -24,3 +24,12 @@
     - create_bingo_card配下です。
 - 実行結果
 <img width="196" alt="image" src="https://github.com/honwaka050705/ruby_only_env/assets/138632145/e958e604-027d-4eb1-adb6-557d7092c7d7">
+
+## 定番アルゴリズムの習得
+### ▼参考サイト
+- paiza/問題集
+  - https://paiza.jp/works/mondai/sequence_search_problems
+- 引数の入力方法
+  - https://pikawaka.com/ruby/gets
+- コマンドライン引数の渡し方
+  - https://uxmilk.jp/12947
