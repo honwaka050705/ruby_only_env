@@ -38,3 +38,6 @@ docker-compose run --rm app bundle exec ruby [実行するファイル名]
   - https://pikawaka.com/ruby/gets
 - コマンドライン引数の渡し方
   - https://uxmilk.jp/12947
+
+### ▼動作確認コマンド
+`docker-compose run --rm app bundle exec ruby [実行対象ファイルパス]`
